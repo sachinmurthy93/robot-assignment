@@ -21,11 +21,11 @@ bundle install
 The program accepts input as command-line arguments and returns a list of instructions for the robot to reach and clean the specified points on the grid.
 
 ```
-ruby optimus_grime.rb <grid_size> <point1> <point2> ...
+ruby optimus_grime.rb <grid_size> <point1> <point2>, ...
 ```
 
-- <grid_size>: The size of the grid in the format widthxheight. For example, 5x5 represents a grid of 5 meters width and 5 meters height.
-- <point1>, <point2>, ...: The list of points to be cleaned. Each point should be in the format (x, y), where x and y are the coordinates of the point.
+- ```<grid_size>```: The size of the grid in the format widthxheight. For example, 5x5 represents a grid of 5 meters width and 5 meters height.
+- ```<point1>, <point2>, ...``` : The list of points to be cleaned. Each point should be in the format (x, y), where x and y are the coordinates of the point.
 
 ## Example
 
