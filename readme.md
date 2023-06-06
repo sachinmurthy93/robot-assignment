@@ -7,7 +7,7 @@ This program provides a Ruby solution for generating cleaning instructions for a
 Clone the repository:
 
 ```
-git clone <repository_url>
+git clone https://github.com/sachinmurthy93/robot-assignment.git
 ```
 
 Install the required dependencies:
